@@ -1,0 +1,5 @@
+#!/bin/bash
+
+filepath="output"
+make tests
+./tests ${filepath}
